@@ -1,0 +1,44 @@
+body {
+    background-color: #EEBBEE;
+}
+
+section{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%); 
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.conteudo {
+    margin: 30px 0px;
+}
+
+button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input{
+    padding: 15px 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+.primario{
+    background-color: #CEF7CE;
+    margin-right: 5px;
+}
+
+.secundario{
+    background-color: #FF9999;
+}

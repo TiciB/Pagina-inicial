@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Página Inicial</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Estrutura principal do site, sem estilização in line-->
+        <section id="inicio">
+            <img src="./imagens/anotação.jpg" alt="ilustração de mulher fazendo anotações" width="700px" height="600px">
+            <div class="conteudo">
+                <h1 class="titulo">Curso de Introdução de Desenvolvimento Web</h1>
+                <h2 id="result"></h2>
+            </div>
+            <input placeholder="Nome" name="nome" id="nome"/>
+            <button class="primario" onclick= "getValue()">Entrar</button>
+            <button class="secundario" onclick="removeValue()">Sair</button>
+        </section>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
